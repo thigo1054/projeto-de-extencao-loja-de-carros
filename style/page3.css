@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-size: 100%;
+    background-color: #0d0d0b;
+  }
+  
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  
+  }
+  
+  .cabecalho-imagem {
+    height: 72px;
+    border-radius: 99rem;
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .cabecalho-menu-item:hover {
+    color: #e6a92f;
+    transition: 0.3s;
+  }
+  
+  .cabecalho-imagem-itens {
+    font-family: 'Sarala', sans-serif;;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+div h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    font-family: 'Sarala', sans-serif;;
+    font-weight: 300;
+    font-size: 60px;
+    color: #FFF2E7;
+    text-shadow: 0px 0px 10px #e6a92f, 0px 0px 20px #e6a92f, 0px 0px 30px #e6a92f, 0px 0px 40px #e6a92f, 0px 0px 50px #e6a92f, 0px 0px 60px #e6a92f, 0px 0px 70px #e6a92f;
+}
+
+  .rodape h2 {
+    font-family: "Righteous", sans-serif;
+    display: block;
+    text-align: center;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    }
