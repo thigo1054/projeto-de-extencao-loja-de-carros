@@ -134,6 +134,82 @@ body {
   font-size: 18px;
 }
 
+#produtos {
+  padding: 50px 0;
+  background-color: #0d0d0b;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
+#produtos .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#produtos h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #FFF2E7;
+  margin-bottom: 20px;
+}
+
+.produtos-lista {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.produto {
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+  padding: 20px;
+  background-color: #FFF2E7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.produto h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.produto p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.produto button {
+  padding: 10px 20px;
+  background-color: #e6a92f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.produto button:hover {
+  background-color: #d6c7ba;
+  color: #000000;
+  transition: 0.5s;
+}
+
 .rodape h2 {
   font-family: "Righteous", sans-serif;
   display: block;
